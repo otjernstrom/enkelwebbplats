@@ -31,3 +31,28 @@ li{
 display: inline;
 font-size: 2em;
 }
+.dropbtn{
+  background-color: rgb(72, 70, 49);
+  color: white;
+  border: none;
+  font-size: 1.5em;
+  padding: 1vh 1.5vw ;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(114, 111, 249, 0.42);
+}
+
+.dropdown-content a {
+  display: block;
+  text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown-content a:hover {background-color: rgba(114, 111, 249, 0.70);}
+.dropbtn:hover {background-color: rgb(34, 33, 23) }
