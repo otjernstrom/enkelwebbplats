@@ -3,20 +3,14 @@
   margin:0;
 }
 body{
-  background-color: rgba(172, 170, 249, 0.19);
+  background-color: rgba(170, 232, 249, 0.19);
 }
 header{
-  background-color: rgba(114, 111, 249, 0.42);
+  background-color: rgba(58, 142, 207, 0.65);
 }
-
 h1{
   padding: 10px;
   color:rgb(72, 70, 49);
-}
-
-.river img{
-  width: 90%;
-  margin-bottom: 5vh;
 }
 #annatfont{
   font-family: 'Nabla', cursive;
@@ -25,7 +19,7 @@ h1{
 border: solid rgb(63, 161, 18) 1px;
 }
 nav{
-  background-color: rgba(67, 58, 207, 0.65);
+  background-color: rgba(58, 142, 207, 0.35);
 }
 li{
 display: inline;
@@ -45,14 +39,19 @@ font-size: 2em;
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: rgba(114, 111, 249, 0.42);
+  background-color:rgba(58, 142, 207, 0.85);
 }
-
 .dropdown-content a {
   display: block;
   text-decoration: none;
 }
-
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown-content a:hover {background-color: rgba(114, 111, 249, 0.70);}
 .dropbtn:hover {background-color: rgb(34, 33, 23) }
+.bild{
+  width: 90%;
+}
+#extra{
+  position: relative;
+  background-color: blue;
+}
